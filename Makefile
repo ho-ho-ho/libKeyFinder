@@ -21,7 +21,7 @@ OBJS = $(subst .cpp,.o,$(SRCS))
 all: build
 
 build: $(OBJS)
-	g++ $(LDFLAGS) -o libkeyfinder.so $(OBJS)
+	g++ -o libkeyfinder.so $(OBJS) $(LDFLAGS)
 
 clean:
 	rm -f $(OBJS) libkeyfinder.so
