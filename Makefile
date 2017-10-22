@@ -31,7 +31,7 @@ clean:
 
 install:
 	install libkeyfinder.so /usr/local/lib
-	mkdir -p /usr/local/include/libkeyfinder
-	install *.h /usr/local/include/libkeyfinder
+	mkdir -p /usr/local/include/keyfinder
+	install *.h /usr/local/include/keyfinder
 
 .PHONY: clean install
